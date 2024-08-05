@@ -1,0 +1,8 @@
+1.	sudo yum install maven -y
+1.	Internally the above command installs java.
+2.	Verify maven installation
+1.	mvn --version
+3.	Create new java web application using maven
+1.	mvn archetype:generate -DgroupId=in.javahome -DartifactId=hr-api -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+4.	cd hr-api
+5.	mvn package
